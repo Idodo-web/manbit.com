@@ -1,0 +1,91 @@
+<html>
+     <head>
+	    <title>ClubMemberPage</title>
+	<style>	
+ul.breadcrumb 
+  {padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;}
+ul.breadcrumb li 
+  {display: inline;
+  font-size: 18px;}
+ul.breadcrumb li+li:before 
+  {padding: 8px;
+  color: black;
+  content: "/\00a0";}
+ul.breadcrumb li a 
+  {color: #0275d8;
+  text-decoration: none;}
+ul.breadcrumb li a:hover 
+  {color: #01447e;
+  text-decoration: underline;}  
+    </style>	
+	 </head>
+    <body>
+<div dir="rtl">	
+    <ul class="breadcrumb">
+       <li><a href="C:\Users\USER 2\Desktop\PageHtml\HomePage.html">דף בית</a></li>
+       <li><a href="C:\Users\USER 2\Desktop\PageHtml\ClubMemberPage.html">הרשמה לחבר מועדון</a></li>
+       <li><a href="C:\Users\USER 2\Desktop\PageHtml\GalleryPage.html">גלריית תמונות</a></li>
+       <li><a href="C:\Users\USER 2\Desktop\PageHtml\GameTablePage.html">טבלת משחק</a></li>
+       <li><a href="C:\Users\USER 2\Desktop\PageHtml\AboutMePage.html">על עצמי</a></li>
+       <li><a href="C:\Users\USER 2\Desktop\PageHtml\OdotPage.html">אודות</a></li>
+    </ul>
+	   <h1 align="center">פוטבול אמריקאי (american football)</h1>
+        <div align="center">
+          <img src="C:\Users\USER 2\Desktop\PageHtml\pictures\Logo.jpg" width="20%" height="20%" alt="תמונה לא זמינה">		 
+        </div>
+		<hr width="100%" size="2" color="#0f0f0f">
+	<h1 align="center">טופס הרשמה לחבר מועדון</h1>	
+</div>		
+<div>	
+  <form align="center" action="" method="post">
+	     <label>FirstName:</label>
+		 <input type="text" name="FirstName" placeholder="FirstName" required/>
+	<br>	 
+	<br>
+	     <label>LastName:</label>
+		 <input type="text" name="LastName" placeholder="LastName" required/>
+	<br>	 
+	<br>	
+	     <label>password:</label>
+		 <input type="password" name="password" placeholder="Select password" minlength="8" required/>
+	<br>	 
+	<br>	
+	     <label>Phone:</label>
+		 <input type="tel" name="YourPhone" placeholder="YourPhone" required/>
+    <br>
+	<br>		 
+		 <label>Email:</label>
+		 <input type="email" name="YourMail" placeholder="YourMail" required/>
+	<br>
+	<br>
+         <select required>
+		 <option>man</option>
+	     <option>woman</option>
+		 <option>Other</option>
+		 </select>
+    <br>
+    <br>
+	     What Do You Think About The Site: <br>
+		 <textarea name="info" cols="20" rows="10" maxlength="160" placeholder="WhatDoYouThink"></textarea>
+	<br>
+    <br>
+	     Sports you like:<br>
+		 <input type="radio" name="sport" value="Football">Football <br>
+		 <input type="radio" name="sport" value="Soccer">Soccer <br>
+		 <input type="radio" name="sport" value="Basketball">Basketball <br>
+	     <input type="radio" name="sport" value="Other">Other <input type="text" maxlength="100" placeholder="Other">
+	<br>
+	<br>
+ 		 <label>I Agrey:</label>
+		 <input type="checkbox" name="Agrey" required/>
+	<br>
+	<br>	
+         <button type="submit">Sign Up</button>
+		 
+     	 <button type="reset">reset</button>
+</table>  
+</div>  
+	</body>
+</html>	
